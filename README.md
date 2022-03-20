@@ -1,1 +1,1 @@
-# box
+# MagicSoft Group (JavaScript)

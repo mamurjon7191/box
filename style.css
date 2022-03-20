@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100%;
+  background-color: beige;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.box1 {
+  width: 400px;
+  height: 250px;
+  background-color: blueviolet;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  color: white;
+  opacity: 1;
+  transition: 1s all;
+}
+.box101 {
+  transform: translate(-130%);
+  opacity: 0;
+  transition: 1s all;
+}
+.box201 {
+  opacity: 0;
+  transition: 1s all;
+  transform: translate(130%);
+}
+
+.boxCenter {
+  transform: translate(0);
+}
